@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="table-container">
+            <!-- <h1>lorem1030 ajksndcjawkenfcajlknnnnn</h1> -->
+           
+
+
+            <form action="" id="form">
+                <div>
+                  <label for="name">Book</label>
+                  <input type="text"   id="form-book"/>
+                </div>
+                <div>
+                  <label for="author">Author</label>
+                  <input type="text"   id="form-author"/>
+                </div>
+                <div>
+                    <label for="pages">Pages</label>
+                    <input type="number" id="form-pages"  />
+                </div>
+                <div>
+                  <label for="status" >Status</label>
+                  <select name="status"  id="form-status">
+                    <option value="read">Read</option>
+                    <option value="not read">Not read</option>
+                  </select>
+                </div>
+                <input type="submit" value="submit"  />
+            </form>
+
+            <table id="table">
+                <tbody>
+                    <tr>
+                        <th>Title</th>
+                        <th>Author</th>
+                        <th>Pages</th>
+                        <th>Read</th>
+                        <th>Delete</th>
+                        <th>Mark</th>
+                    </tr>
+                </tbody>
+                <tbody id="book-body">
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script type="text/javascript" src="main.js"></script>
+</body>
+</html>
